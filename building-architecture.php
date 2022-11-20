@@ -85,9 +85,6 @@ run_building_architecture();
 
 function architecture_public_widget_shortcode()
 {
-	
-	
-	
 	ob_start(); 
 	include('public/partials/building-architecture-public-display.php');
 	$output = ob_get_contents();

@@ -2,3 +2,10 @@
  * All of the CSS for your admin-specific functionality should be
  * included in this file.
  */
+ .architecture-select{
+    max-width: 100em!important;
+    min-height: 40px!important;
+}
+.architecture-upload{
+
+}

@@ -28,7 +28,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="project-roof">Roof</label>
-                    <select class="form-select" id="project-roof" name="project_roof">
+                    <select class="form-select architecture-select" id="project-roof" name="project_roof">
                         <option value="01">Steel</option>
                         <option value="02">Alaminum</option>
                         <option value="03">Alaminum</option>
@@ -36,7 +36,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label w-100" for="project-walls">Walls</label>
-                    <select class="form-select" id="project-walls" name="project_walls">
+                    <select class="form-select architecture-select" id="project-walls" name="project_walls">
                         <option value="01">Fired Bricks</option>
                         <option value="02">Aerated Concrete</option>
                         <option value="03">Foam Concrete Blocks</option>
@@ -44,7 +44,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label w-100" for="project-walls">Doors</label>
-                    <select class="form-select" id="project-walls" name="project_walls">
+                    <select class="form-select architecture-select" id="project-walls" name="project_walls">
                         <option value="01">Wooden Doors</option>
                         <option value="02">Aerated Concrete</option>
                         <option value="03">Foam Concrete Blocks</option>

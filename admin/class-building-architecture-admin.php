@@ -116,11 +116,37 @@ class Building_Architecture_Admin {
 			'dashicons-building',
 			21
 		);
+		add_submenu_page(
+			'building_architecture',
+			'New Project',
+			'Add New Project',
+			'manage_options',
+			'building_architecture_projects',
+			array($this, 'building_architecture_add_page_html'),
+		);
+		add_submenu_page(
+			'building_architecture',
+			'Options',
+			'Options',
+			'manage_options',
+			'building_architecture_options',
+			array($this, 'building_architecture_options_page_html'),
+		);
 	}
 
 	function building_architecture_page_html()
 	{
 		include(plugin_dir_path(__FILE__) . 'partials/building-architecture-admin-display.php');
+	}
+	
+	function building_architecture_options_page_html()
+	{
+		include(plugin_dir_path(__FILE__) . 'partials/building-architecture-options-display.php');
+	}
+
+	function building_architecture_add_page_html()
+	{
+		include(plugin_dir_path(__FILE__) . 'partials/building-architecture-add-display.php');
 	}
 
 }
