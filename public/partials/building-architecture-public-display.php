@@ -38,9 +38,10 @@ echo "
             </div>
             <div class='col-4 vh-100 shadow-effect'>
                 <div class='py-5'>
-                    <div class='panel-title py-3 shadow-effect'>
+                  
+                <div class='panel-title py-3 shadow-effect'>
                         <h2 class='left-border'>Customize Your House</h2>
-                    </div>
+                    </div> 
                     <div class='form-container pt-3'>
                         <form method='POST' action='". get_site_url(). "/wp-content/plugins/building-architecture/public/partials/form.php' >
                             <div id='tab1' class=''> 
@@ -62,10 +63,10 @@ echo "
                                     </div>
                                    
                                 </div>
-                                <div class='input-group mb-3'>
+                               <!-- <div class='input-group mb-3'>
                                     <label class='input-group-text' for='inputGroupFile01'>Sketch</label>
                                     <input type='file' class='form-control' id='inputGroupFile01'>
-                                </div>
+                                </div> -->
 
                                 <div class='input-group mb-3'>
                                     <input type='number' class='form-control' placeholder='Area'  name='area'>
