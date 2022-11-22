@@ -28,7 +28,7 @@ $finishing_types = [
 // Design / Rehabilitation
 $work_type = sanitize_text_field($_POST['workType']);
 // Sketch
-
+// Send as attachment
 // Area
 $building_area = sanitize_text_field( $_POST['area'] );
 // Floors
@@ -65,7 +65,7 @@ Client Note: '. $client_message. '<br>'
 echo $body;
 
 $to = 'xmanhunter12@gmail.com';
-$subject = 'The subject';
+$subject = 'New Service Order';
 //$body = 'The email body content';
 $headers = array('Content-Type: text/html; charset=UTF-8');
 
