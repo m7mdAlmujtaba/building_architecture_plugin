@@ -18,11 +18,13 @@
 echo "
     <div class=''>
         <div class='row border'>
-            <div class='col-8 p-2 position-relative'>
+            <div class='col-lg-8 p-2 position-relative'>
                 <div>
                     <div class='lowcost-costruction'>
                     <h5 class='text-uppercase '>
                         Low Cost <span class='text-warning'>Construction</span>
+                        
+                        <span class='left-border'>Customize Your House</span>
                     </h5>
                 </div>
                 </div>
@@ -36,13 +38,11 @@ echo "
                 </div>
                
             </div>
-            <div class='col-4 vh-100 shadow-effect'>
+            <div class='col-lg-4 vh-100 shadow-effect'>
                 <div class='py-5'>
-                    <div class='panel-title py-3 shadow-effect'>
-                        <h2 class='left-border'>Customize Your House</h2>
-                    </div>
+                  
                     <div class='form-container pt-3'>
-                        <form method='POST' action='". get_site_url(). "/wp-content/plugins/building-architecture/public/partials/form.php' >
+                        <form method='POST' action='" . get_site_url() . "/wp-content/plugins/building-architecture/public/partials/form.php' >
                             <div id='tab1' class=''> 
                                 <div class='mb-3'>
                                     <div class=''>
@@ -60,13 +60,14 @@ echo "
                                         Rehabilitation
                                         </label>
                                     </div>
-                                   
+
                                 </div>
+                                <!--
                                 <div class='input-group mb-3'>
                                     <label class='input-group-text' for='inputGroupFile01'>Sketch</label>
                                     <input type='file' class='form-control' id='inputGroupFile01'>
                                 </div>
-
+                                -->
                                 <div class='input-group mb-3'>
                                     <input type='number' class='form-control' placeholder='Area'  name='area'>
                                

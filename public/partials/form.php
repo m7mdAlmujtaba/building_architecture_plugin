@@ -64,7 +64,8 @@ Client Note: '. $client_message. '<br>'
 // Echo Everything
 echo $body;
 
-$to = 'xmanhunter12@gmail.com';
+//$to = 'xmanhunter12@gmail.com';
+$to = get_option('admin_email');
 $subject = 'New Service Order';
 //$body = 'The email body content';
 $headers = array('Content-Type: text/html; charset=UTF-8');

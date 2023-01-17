@@ -77,7 +77,6 @@ require plugin_dir_path(__FILE__) . 'includes/class-building-architecture.php';
  */
 function run_building_architecture()
 {
-
 	$plugin = new Building_Architecture();
 	$plugin->run();
 }
