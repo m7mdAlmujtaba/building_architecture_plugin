@@ -18,7 +18,7 @@
     <div class="py-5">
         <h2>Building Architecture</h2>
     </div>
-
+<!--
     <form method="" action="">
         <div class="row">
             <div class="col-6 bg-light p-5">
@@ -66,7 +66,12 @@
                 </div>
             </div>
     </form>
-
-
+-->
+<div class="col-6 bg-light p-5">
+<div class="mb-3">
+                    <label class="form-label" for="project-name">You can use this Shortcode inside Your page to display gallery</label>
+                    <input type="text" class="form-control" id="project-name" name="project_name" value="[architecture_shortcode]">
+                </div>
+</div>
 </div>
 </div>

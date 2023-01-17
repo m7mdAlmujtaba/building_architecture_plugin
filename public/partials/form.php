@@ -1,5 +1,5 @@
 <?php
-require_once( explode( "wp-content" , __FILE__ )[0] . "wp-load.php" );
+require_once( explode( "wp-content" , __FILE__ )[0] . "wp-load.php" ); 
 
 $structures = [
     '01' => 'Reinforced concrete columns + Flat slab roof', 
@@ -64,12 +64,13 @@ Client Note: '. $client_message. '<br>'
 // Echo Everything
 echo $body;
 
-//$to = 'xmanhunter12@gmail.com';
-$to = get_option('admin_email');
+$admin_email = get_option( 'admin_email' );
+$to = $admin_email;
 $subject = 'New Service Order';
 //$body = 'The email body content';
 $headers = array('Content-Type: text/html; charset=UTF-8');
-
+$ref_page =$_SERVER['HTTP_REFERER'];
 wp_mail( $to, $subject, $body, $headers );
+header('Location: '.$ref_page);
 
 ?>
