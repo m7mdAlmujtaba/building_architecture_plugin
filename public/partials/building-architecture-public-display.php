@@ -40,13 +40,6 @@ echo "
             </div>
             <div class='col-lg-4 vh-100 shadow-effect'>
                 <div class='py-5'>
-                  
-<<<<<<< HEAD
-=======
-                <div class='panel-title py-3 shadow-effect'>
-                        <h2 class='left-border'>Customize Your House</h2>
-                    </div> 
->>>>>>> 982292ca7026f83cfbe051879b87f340b919f23b
                     <div class='form-container pt-3'>
                         <form method='POST' action='" . get_site_url() . "/wp-content/plugins/building-architecture/public/partials/form.php' >
                             <div id='tab1' class=''> 
